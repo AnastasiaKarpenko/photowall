@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const tasks = ['Take out the trash', 'shovel the driveway', 'walk the dog'];
+
 const element = React.createElement('ol', null,
-    React.createElement('li', null, 'Take out the trash'),
-    React.createElement('li', null, 'shovel the driveway'),
-    React.createElement('li', null, 'walk the dog')
-    );
+    tasks.map((task) => React.createElement('li', null, task))
+
+);
 
 ReactDOM.render(element, document.getElementById('root'));
