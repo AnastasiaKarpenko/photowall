@@ -10,11 +10,15 @@ h1 {
     margin: 2rem 0;
     letter-spacing: -1px;
     color: black;
-
-
 }
 
 @font-face {
     font-family: 'billabong';
     src: url("./Billabong.ttf");
 }
+
+.photo-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
