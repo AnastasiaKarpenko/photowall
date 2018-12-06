@@ -3,14 +3,6 @@ import ReactDOM from 'react-dom';
 
 const tasks = ['Take out the trash', 'Shovel the driveway', 'Walk the dog'];
 
-const element =
-    <div>
-        <h1> Task List </h1>
-        <ol>
-            {tasks.map((task, index) => <li key={index}>{task}</li>)}
-        </ol>
-    </div>
-
 class List extends Component {
 
     render() {
@@ -28,7 +20,16 @@ class Title extends Component {
     }
 }
 
+class Main extends Component {
 
+    render() {
+        return
+        <div>
+            <List/>
+            <Title/>
+        </div>
+    }
+}
 
 //CreateElement
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(<Main/>, document.getElementById('root'));
