@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d60eeef1-6a4f-439e-bc10-d223cef5140d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Photo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Photo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Title.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Title.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/Components/Main.js" />
         <option value="$PROJECT_DIR$/src/styles/stylesheet.css" />
         <option value="$PROJECT_DIR$/src/Components/PhotoWall.js" />
-        <option value="$PROJECT_DIR$/src/Components/Title.js" />
         <option value="$PROJECT_DIR$/src/Components/Photo.js" />
+        <option value="$PROJECT_DIR$/src/Components/Title.js" />
       </list>
     </option>
   </component>
@@ -385,23 +385,30 @@
       <option name="project" value="LOCAL" />
       <updated>1544114533811</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Made a photo a stateless function">
+      <created>1544114664532</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1544114664532</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15726000" />
+    <option name="totallyTimeSpent" value="16026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25510922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25440452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27228916" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27228916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +427,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creating ordered list" />
     <MESSAGE value="Learning JSX" />
     <MESSAGE value="using map method" />
     <MESSAGE value="Adding the key" />
@@ -445,7 +451,8 @@
     <MESSAGE value="Added class names for button adn button container to add the styles" />
     <MESSAGE value="MAde photowall a functional component" />
     <MESSAGE value="Made Title a stateless function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made Title a stateless function" />
+    <MESSAGE value="Made a photo a stateless function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a photo a stateless function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
@@ -499,6 +506,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/PhotoWall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -508,15 +522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Title.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/PhotoWall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
