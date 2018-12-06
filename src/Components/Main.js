@@ -20,6 +20,7 @@ class Main extends Component {
     render() {
         return <div>
             <Title title={"Photowall"}/>
+            <PhotoWall/>
 
         </div>
     }
