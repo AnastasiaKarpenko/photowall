@@ -24,10 +24,15 @@ class Main extends Component {
         }
     }
 
+    removePhoto(photoRemoved) {
+        console.log(photoRemoved.description);
+
+    }
+
     render() {
         return <div>
             <Title title={"Photowall"}/>
-            <PhotoWall posts={this.state.posts}/>
+            <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
 
         </div>
     }
