@@ -22,7 +22,7 @@ class Main extends Component {
     render() {
         return <div>
             <Title/>
-            <List tasks={["Mow the law", "Walk the dog"]}/>
+            <List tasks={["Mow the lawn", "Walk the dog"]}/>
             <List tasks={["Hose the driveway", "Do the laundry"]}/>
         </div>
     }
