@@ -28,6 +28,10 @@ class Main extends Component {
         console.log('componentDidMount')
     }
 
+    componentDidUpdate() {
+        alert('re-render')
+    }
+
     render() {
         console.log('render')
         return <div>
