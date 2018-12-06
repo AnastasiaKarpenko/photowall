@@ -22,12 +22,13 @@ class Main extends Component {
 
             }]
         }
+        this.removePhoto = this.removePhoto.bind(this);
     }
 
     removePhoto(postRemoved) {
         console.log(postRemoved.description);
         this.setState((state) => ({
-            posts: state.posts.filter(post => post !== postRemoved )
+            posts: state.posts.filter(post => post !== postRemoved)
         }))
 
     }
