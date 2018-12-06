@@ -45,9 +45,16 @@ h1 {
 }
 
 .button-container {
-
+    display: flex;
+    justify-content: center;
 }
 
 .remove-button {
+    flex-basis: 48%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
 
 }
