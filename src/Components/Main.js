@@ -23,7 +23,6 @@ class Main extends Component {
             }]
         }
         this.removePhoto = this.removePhoto.bind(this);
-        console.log('constructor')
     }
 
     removePhoto(postRemoved) {
@@ -35,15 +34,17 @@ class Main extends Component {
     }
 
     componentDidMount() {
-        console.log('componentDidMount')
+
     }
 
-    componentDidUpdate() {
-        alert('re-render')
+    componentDidUpdate(prevProps, prevState) {
+
+        console.log(prevState.posts)
+        console.log(this.state)
+
     }
 
     render() {
-        console.log('render')
         return <div>
             <Title title={"Photowall"}/>
             <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
