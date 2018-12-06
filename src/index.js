@@ -21,12 +21,10 @@ class Title extends Component {
 }
 
 class Main extends Component {
-
     render() {
-        return
-        <div>
-            <List/>
+        return <div>
             <Title/>
+            <List/>
         </div>
     }
 }
