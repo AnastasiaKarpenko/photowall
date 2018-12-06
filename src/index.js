@@ -13,7 +13,7 @@ class List extends Component {
 class Title extends Component {
     render() {
         return (
-            <h1>Task List</h1>
+            <h1>{this.props.name}</h1>
         );
     }
 }
@@ -21,7 +21,7 @@ class Title extends Component {
 class Main extends Component {
     render() {
         return <div>
-            <Title/>
+            <Title name={"ToDo"}/>
             <List tasks={["Mow the lawn", "Walk the dog"]}/>
             <List tasks={["Hose the driveway", "Do the laundry"]}/>
         </div>
