@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -180,11 +180,32 @@
       <option name="project" value="LOCAL" />
       <updated>1544077878972</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created 2 components">
+      <created>1544078846342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544078846342</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Rendering out Main component through the DOM">
+      <created>1544079034415</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544079034415</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Rendering out Main component through the DOM">
+      <created>1544079224938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544079224938</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3744000" />
+    <option name="totallyTimeSpent" value="4341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -222,7 +243,9 @@
     <MESSAGE value="Wiring the key to the index of the array" />
     <MESSAGE value="Added header text" />
     <MESSAGE value="Added header text and adding the div tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added header text and adding the div tag" />
+    <MESSAGE value="Created 2 components" />
+    <MESSAGE value="Rendering out Main component through the DOM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rendering out Main component through the DOM" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
@@ -260,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="240">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
