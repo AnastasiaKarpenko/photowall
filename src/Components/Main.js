@@ -9,6 +9,7 @@ class Main extends Component {
             posts: []
         }
         this.removePhoto = this.removePhoto.bind(this);
+        console.log('constructor')
     }
 
     removePhoto(postRemoved) {
@@ -24,14 +25,14 @@ class Main extends Component {
         this.setState({
             posts: data
         })
-
+        console.log('componentDidMount')
     }
 
     render() {
+        console.log('render')
         return <div>
             <Title title={"Photowall"}/>
             <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
-
         </div>
     }
 }
