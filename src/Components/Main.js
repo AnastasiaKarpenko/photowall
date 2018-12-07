@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Title from './Title'
 import PhotoWall from './PhotoWall'
 import AddPhoto from './AddPhoto'
+import {Route} from 'react-router-dom'
 
 class Main extends Component {
     constructor() {
@@ -55,25 +56,15 @@ class Main extends Component {
 
     render() {
         return <div>
+            <Route exact path="/" render={() => (
+                <div>
+                    <Title title={"Photowall"}/>
+                    <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}
+                               onNavigate={this.navigate}/>
+                </div>
+            )}/>
 
-            {
-                this.state.screen === 'photos' && (
-                    <div>
-                        <Title title={"Photowall"}/>
-                        <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}
-                                   onNavigate={this.navigate}/>
-                    </div>)
-
-            }
-
-            {
-                this.state.screen === 'addPhoto' && (
-                    <div>
-                        <AddPhoto/>
-                    </div>
-                )
-
-            }
+            <Route path="/AddPhoto" component={AddPhoto}/>
         </div>
     }
 }
