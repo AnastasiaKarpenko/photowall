@@ -26,6 +26,7 @@ class Main extends Component {
             screen: 'photos'
         }
         this.removePhoto = this.removePhoto.bind(this);
+        this.addPhoto = this.addPhoto.bind(this);
     }
 
     removePhoto(postRemoved) {
