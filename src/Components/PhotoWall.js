@@ -2,10 +2,10 @@ import React from 'react'
 import Photo from './Photo'
 import PropTypes from 'prop-types'
 
-
+//anchor tag, href attribute
 function PhotoWall(props) {
     return <div>
-        <button onClick={props.onNavigate} className="addIcon"></button>
+        <a onClick={props.onNavigate} className="addIcon" href="#AddPhoto"> </a>
         <div className="photo-grid">
             {props.posts.map((post, index) => <Photo key={index} post={post} onRemovePhoto={props.onRemovePhoto}/>)}
         </div>
