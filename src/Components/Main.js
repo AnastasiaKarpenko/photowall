@@ -37,12 +37,6 @@ class Main extends Component {
 
     }
 
-    navigate() {
-        this.setState({
-            screen: 'addPhoto'
-        })
-    }
-
     componentDidMount() {
 
     }
