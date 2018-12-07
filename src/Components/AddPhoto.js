@@ -12,6 +12,9 @@ class AddPhoto extends Component {
         event.preventDefault();
         const imageLink = event.target.elements.link.value;
         const description = event.target.elements.description.value;
+        if(description && imageLink) {
+
+        }
     }
 
 

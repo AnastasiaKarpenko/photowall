@@ -36,6 +36,12 @@ class Main extends Component {
 
     }
 
+    addPhoto(postSubmitted) {
+        this.setState((state) => ({
+            posts: state.posts.concat([postSubmitted])
+        }))
+    }
+
     componentDidMount() {
 
     }
