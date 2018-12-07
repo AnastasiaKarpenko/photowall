@@ -2,8 +2,14 @@ import React, {Component} from 'react'
 
 class AddPhoto extends Component {
 
-    handleSubmit() {
+    constructor() {
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
 
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
     }
 
 
