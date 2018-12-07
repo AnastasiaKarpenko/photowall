@@ -39,8 +39,10 @@ h1 {
 }
 
 .photo {
-    width: calc(100% - 4rem);
-    margin: -2rem 0rem 0rem -2rem;
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    margin-top: -2rem;
+    max-width: none;
 
 }
 
