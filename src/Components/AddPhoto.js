@@ -10,6 +10,8 @@ class AddPhoto extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
+        const imageLink = event.target.elements.link.value;
+        const description = event.target.elements.description.value;
     }
 
 
@@ -19,8 +21,8 @@ class AddPhoto extends Component {
                 <h1> Photowall </h1>
                 <div className="form">
                     <form onSubmit={this.handleSubmit}>
-                        <input type="text" placeholder="Link"/>
-                        <input type="text" placeholder="Description"/>
+                        <input type="text" placeholder="Link" name="link"/>
+                        <input type="text" placeholder="Description" name="description"/>
                         <button className="button">Post</button>
                     </form>
                 </div>
