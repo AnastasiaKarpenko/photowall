@@ -87,3 +87,23 @@ h1 {
     box-sizing: border-box;
     font-size: 14px;
 }
+
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: #065784;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #7b8589;
+}
+
+button:hover {
+    border-color: blue;
+}
