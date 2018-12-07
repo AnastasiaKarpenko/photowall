@@ -8,9 +8,7 @@ function PhotoWall(props) {
         <Link className="addIcon" to="/AddPhoto"> </Link>
         <div className="photo-grid">
             {props.posts
-                .sort(function(x, y) {
-                    return y.id - x.id
-                })
+                .sort((x, y) => y.id - x.id)
                 .map((post, index) => <Photo key={index} post={post} onRemovePhoto={props.onRemovePhoto}/>)}
         </div>
     </div>

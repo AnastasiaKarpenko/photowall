@@ -25,19 +25,17 @@ class Main extends Component {
             }],
             screen: 'photos'
         }
-        this.removePhoto = this.removePhoto.bind(this);
-        this.addPhoto = this.addPhoto.bind(this);
     }
 
-    removePhoto(postRemoved) {
-        console.log(postRemoved.description);
+
+    removePhoto = (postRemoved) => {
         this.setState((state) => ({
             posts: state.posts.filter(post => post !== postRemoved)
         }))
 
     }
 
-    addPhoto(postSubmitted) {
+    addPhoto = (postSubmitted) => {
         this.setState((state) => ({
             posts: state.posts.concat([postSubmitted])
         }))
