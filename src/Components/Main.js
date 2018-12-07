@@ -49,8 +49,8 @@ class Main extends Component {
 
     componentDidUpdate(prevProps, prevState) {
 
-        console.log(prevState.posts)
-        console.log(this.state)
+        console.log(prevState.posts);
+        console.log(this.state);
 
     }
 
@@ -64,7 +64,11 @@ class Main extends Component {
                 </div>
             )}/>
 
-            <Route path="/AddPhoto" component={AddPhoto}/>
+            <Route path="/AddPhoto" render={() => (
+                <AddPhoto onAddPhoto={(addedPost) => {
+                    console.log(addedPost);
+                }}/>
+            )}/>
         </div>
     }
 }
