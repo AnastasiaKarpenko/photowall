@@ -22,9 +22,10 @@ class Main extends Component {
                 imageLink: "https://welldesi.files.wordpress.com/2015/10/hanauma-bay.jpg?w=2400&h=1600&crop=1"
 
             }],
-            screen: 'addPhoto' //photos, addPhoto
+            screen: 'photos'
         }
         this.removePhoto = this.removePhoto.bind(this);
+        this.navigate = this.navigate.bind(this);
     }
 
     removePhoto(postRemoved) {
@@ -33,6 +34,12 @@ class Main extends Component {
             posts: state.posts.filter(post => post !== postRemoved)
         }))
 
+    }
+
+    navigate() {
+        this.setState({
+            screen: 'addPhoto'
+        })
     }
 
     componentDidMount() {
@@ -53,7 +60,8 @@ class Main extends Component {
                 this.state.screen === 'photos' && (
                     <div>
                         <Title title={"Photowall"}/>
-                        <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
+                        <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}
+                                   onNavigate={this.navigate}/>
                     </div>)
 
             }
@@ -66,8 +74,6 @@ class Main extends Component {
                 )
 
             }
-
-
         </div>
     }
 }
