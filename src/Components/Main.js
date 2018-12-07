@@ -26,7 +26,6 @@ class Main extends Component {
             screen: 'photos'
         }
         this.removePhoto = this.removePhoto.bind(this);
-        this.navigate = this.navigate.bind(this);
     }
 
     removePhoto(postRemoved) {
