@@ -21,7 +21,8 @@ class Main extends Component {
                 description: "On a vacation",
                 imageLink: "https://welldesi.files.wordpress.com/2015/10/hanauma-bay.jpg?w=2400&h=1600&crop=1"
 
-            }]
+            }],
+            screen: 'addPhoto' //photos, addPhoto
         }
         this.removePhoto = this.removePhoto.bind(this);
     }
@@ -47,8 +48,26 @@ class Main extends Component {
 
     render() {
         return <div>
-            <Title title={"Photowall"}/>
-            <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
+
+            {
+                this.state.screen === 'photos' && (
+                    <div>
+                        <Title title={"Photowall"}/>
+                        <PhotoWall posts={this.state.posts} onRemovePhoto={this.removePhoto}/>
+                    </div>)
+
+            }
+
+            {
+                this.state.screen === 'addPhoto' && (
+                    <div>
+                        <AddPhoto/>
+                    </div>
+                )
+
+            }
+
+
         </div>
     }
 }
